@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrarse</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/registro.css">
+</head>
+<body>
+    <header>
+
+        <h1>Ferretería La Fé 
+            <br>
+            <img src="img/logoferreteria.png" alt="Ferretería" width="250" height="150">
+        </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="productos.html"> Productos</a></li>
+            <li><a href="tiendas.html">Tiendas</a></li>
+            <li><a href="registrarse.html">Registrarse</a></li>
+        </ul>
+    </nav>
+<!------------------------------------------------------------------------------------------------>
+<div class="contenedor">
+    <h2>Registro</h2>
+    <form action="#" method="POST">
+        <div class="form-group">
+            <label for="nombre">Nombres:</label>
+            <input type="text" id="nombre" name="usuario" required>
+        </div>
+
+        <div class="form-group">
+            <label for="apellidos">Apellidos:</label>
+            <input type="text" id="apellidos" name="usuario" required>
+        </div>
+
+        <div class="form-group">
+            <label for="usuario">Nombre de Usuario:</label>
+            <input type="text" id="usuario" name="usuario" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Contraseña:</label>
+            <input type="password" id="password" name="password" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Repetir Contraseña:</label>
+            <input type="password" id="rpassword" name="rpassword" required>
+        </div>
+
+        <div class="form-group">
+            <label>Género:</label>
+            
+            <div class="gender-options">
+                <input type="radio" id="genero-masculino" name="genero" value="masculino" required>
+                <label for="genero-masculino">Masculino</label>
+                <input type="radio" id="genero-femenino" name="genero" value="femenino" required>
+                <label for="genero-femenino">Femenino</label>
+            </div>
+        </div>
+        <br>
+        <div class="form-group">
+            <input type="submit" value="Registrarse">
+        </div>
+    </form>
+</div>
+
+
+
+<!------------------------------------------------------------------------------------------------>
+
+
+    <hr size="4px" color="black" />
+    <p class="centrar">
+        <p>&copy; 2024 Ferretería La Fé</p>
+        <p>Mario Augusto López Ordoñez 201801039</p>
+    </p>
+</body>
+</html>
